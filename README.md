@@ -22,7 +22,7 @@ Developed a secure and transparent decentralized voting application using blockc
 - **Frontend:** HTML, CSS, JavaScript (React.js optional)  
 - **Blockchain Interface:** Web3.js or Ethers.js  
 - **Wallet Integration:** MetaMask  
-- **Development Environment:** Remix IDE / Hardhat / Truffle  
+- **Development Environment:** Remix IDE 
 - **Local Blockchain:** Ganache  
 
 ---
@@ -30,44 +30,6 @@ Developed a secure and transparent decentralized voting application using blockc
 ### ❓ Problem Statement
 Traditional voting systems lack transparency and are susceptible to manipulation. This project leverages blockchain to ensure each vote is immutable, secure, and publicly verifiable, without compromising voter privacy.
 
----
-
-### 🏗️ Project File Structure
-
-decentralized-voting-system/
-│
-├── contracts/
-│   └── Voting.sol                # Smart contract written in Solidity
-│
-├── migrations/                   # Truffle migration scripts (if using Truffle)
-│   └── 1_deploy_contracts.js
-│
-├── public/                       # Static files (if using React)
-│   └── index.html
-│
-├── src/                          # Frontend code
-│   ├── App.js                    # Main React component (or main.js if vanilla JS)
-│   ├── components/               # Reusable React components (optional)
-│   │   ├── CandidateList.js
-│   │   └── VoteForm.js
-│   ├── web3.js                   # Web3 configuration and contract loading
-│   └── index.js                  # Entry point for React app
-│
-├── build/                        # Compiled contract ABI & bytecode
-│   └── contracts/
-│       └── Voting.json
-│
-├── test/                         # Smart contract test cases (Mocha/Chai or Hardhat)
-│   └── voting.test.js
-│
-├── .env                          # Environment variables (Infura key, etc.)
-├── package.json                  # Node.js dependencies
-├── truffle-config.js             # Truffle configuration (if using Truffle)
-├── hardhat.config.js             # Hardhat config (if using Hardhat)
-├── README.md                     # Project documentation
-└── resume.md                     # Project summary in Markdown (as requested)
-
----
 
 ### 💡 Key Features
 - Candidate and voter registration (Admin-controlled)  
