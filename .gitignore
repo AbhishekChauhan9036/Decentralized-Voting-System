@@ -1,0 +1,57 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+
+# Build directories
+build/
+dist/
+cache/
+artifacts/
+
+# Hardhat-specific files
+coverage/
+typechain/
+typechain-types/
+
+# React public build
+public/build/
+public/static/
+
+# IDE & OS files
+.DS_Store
+*.swp
+*.swo
+*.idea/
+.vscode/
+*.iml
+
+# npm package-lock / yarn lock
+package-lock.json
+yarn.lock
+
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
